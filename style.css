@@ -1,0 +1,61 @@
+ /* Definindo um fundo vermelho para o corpo */
+body {
+    background-color: red;
+    font-family: Arial, sans-serif; /* Fonte mais simples */
+    color: white; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o título principal */
+header h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #fff; /* Cor do título */
+}
+
+/* Estilo para o subtítulo */
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+/* Container para as fotos */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Estilo para as imagens */
+.photo-grid div {
+    position: relative;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajustando as imagens */
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo para os textos */
+.photo-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+}
